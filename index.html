@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron & Maple | Premium Dining</title>
+    <link rel="stylesheet" href="k.css">
+</head>
+<body>
+  <html lang="fa" dir="rtl" class="arabic-reshef">
+
+    <header class="site-header">
+        <div class="container header-content">
+            <div class="brand">
+                <!-- تغییر لوگو از H&H به S&M -->
+                <span class="brand-mark">S&M</span>
+                <div class="brand-text">
+                    <span class="brand-title" data-key="siteTitle">Saffron & Maple</span>
+                    <span class="brand-tagline" data-key="siteTagline"></span>
+                </div>
+            </div>
+            <nav class="nav-links">
+                <a href="index.html" class="active" data-key="navHome">Home</a>
+                <a href="menu.html" data-key="navMenu">Menu</a>
+                <a href="about.html" data-key="navAbout">About</a>
+                <a href="contact.html" data-key="navContact">Contact</a>
+            </nav>
+            <div class="lang-selector">
+                <button class="lang-link" data-lang="en">EN</button>
+                <button class="lang-link" data-lang="fa">FA</button>
+            </div>
+        </div>
+    </header>
+
+  
+
+  <main>
+    <section class="hero-premium" id="home">
+      <div class="hero-overlay">
+        <div class="container">
+          <div class="hero-content-centered">
+            <div class="hero-badge" data-key="heroBadge">Welcome to Our Restaurant</div>
+            <h1 class="hero-main-title" data-key="heroTitle">A Premium Dining Experience</h1>
+            <p class="hero-desc" data-key="heroDesc">
+              Discover modern flavors, warm hospitality, and a refined atmosphere crafted for unforgettable moments.
+            </p>
+
+            <div class="hero-actions">
+              <a href="menu.html" class="btn btn-gold" data-key="exploreMenu">Explore Menu</a>
+              <a href="contact.html" class="btn btn-outline-white" data-key="bookTable">Book a Table</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker" data-key="whyUs">Why Guests Love Us</p>
+          <h2 class="section-title" data-key="featuredDishes">Featured Dishes</h2>
+          <p class="section-desc">
+            Discover the rich fusion of authentic Persian flavors and premium Canadian ingredients, served in a refined atmosphere crafted for unforgettable moments.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline poster="images/feature-2.jpg">
+                <source src="videos/chef.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="feature-body">
+              <h3 data-key="freshTitle">Fresh Ingredients</h3>
+              <p data-key="vibeDesc">Enjoy a modern, cozy, and sophisticated dining space perfect for any occasion, from intimate dinners to celebrations.</p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline poster="images/feature-2.jpg">
+                <source src="videos/Chef-2.mp4" type="video/mp4">
+              </video>
+            </div>
+            
+            <div class="feature-body">
+              <h3 data-key="chefTitle">Expert Chefs</h3>
+              Discover the rich fusion of authentic Persian flavors and premium Canadian ingredients, served in a refined atmosphere crafted for unforgettable moments.
+            </p>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-media">
+              <video class="feature-video" autoplay muted loop playsinline poster="images/feature-2.jpg">
+                <source src="videos/Chef-3.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="feature-body">
+              <h3 data-key="vibeTitle">Elegant Atmosphere</h3>
+              Discover the rich fusion of authentic Persian flavors and premium Canadian ingredients, served in a refined atmosphere crafted for unforgettable moments.
+            </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+<!-- MODAL -->
+<div class="food-modal" id="foodDetailModal">
+
+  <div class="food-modal-content">
+
+    <button class="food-modal-close" onclick="closeModal()">
+      ×
+    </button>
+
+    <h2 id="modal-food-title"></h2>
+
+    <p id="modal-food-desc"></p>
+
+    <div class="food-meta">
+
+      <h4 data-key="ingredientsLabel">
+        Ingredients
+      </h4>
+
+      <p id="modal-ingredients"></p>
+
+    </div>
+
+    <div class="food-meta">
+
+      <h4 data-key="caloriesLabel">
+        Calories
+      </h4>
+
+      <p id="modal-calories"></p>
+
+    </div>
+
+  </div>
+
+</div>
+
+<footer class="site-footer-premium">
+    <div class="container">
+        
+        <div class="footer-grid">
+
+            <!-- Brand -->
+            <div class="footer-col">
+                <h3 class="footer-brand">🍁 Saffron & Maple</h3>
+                <p data-key="footerAbout">
+                    Premium dining experience in Toronto with authentic Persian flavors and warm Canadian hospitality.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="footer-col">
+                <h4 data-key="quickLinks">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home" data-key="home">Home</a></li>
+                    <li><a href="#menu-section" data-key="menu">Menu</a></li>
+                    <li><a href="#about" data-key="about">About</a></li>
+                    <li><a href="#contact" data-key="contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-col">
+                <h4 data-key="contactTitle">Contact</h4>
+                <p>📍 Toronto, ON</p>
+                <p>📞 +1 (416) 555-1234</p>
+                <p>✉️ info@hadihoda.ca</p>
+            </div>
+
+            <!-- Follow Us -->
+            <div class="footer-col">
+                <h4 data-key="followUs">Follow Us</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-icon">📸 Instagram</a>
+                    <a href="#" class="social-icon">📘 Facebook</a>
+                    <a href="#" class="social-icon">📍 Google Maps</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Divider -->
+        <div class="footer-divider-premium"></div>
+
+        <!-- Copyright -->
+        <p class="footer-copy">© 2026 Saffron & Maple Restaurant. All rights reserved.</p>
+
+    </div>
+</footer>
+
+
+<!-- JS Link -->
+
+<script src="k.js"></script>
+</body>
+</html>
